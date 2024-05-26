@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { signout } from "@/app/auth/login/actions";
+import { signout } from "@/app/(home)/auth/login/actions";
 import { createClient } from "@/utils/supabase/server";
 
 export default async function PrivatePage() {
